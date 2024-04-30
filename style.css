@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: url(./assets/imagemm2.jpg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   min-height: 100vh;
+   
+    
+    
+}
+
+container {
+
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+
+    margin-top: 60px;
+    font-size: 80px;
+    font-weight: bolder;
+   margin-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-right: 80px;
+    
+   
+    
+
+}
+
+
+button {
+
+    font-size: 80px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+button:hover {
+
+    opacity: .8;
+    transition: 0.5s ease-in-out;
+}
+
+button:active {
+
+    opacity: .6;
+    transition: 0.5s;
+
+}
+
+.pedra {
+
+    background-color: #A200FD;
+
+}
+
+.papel {
+
+    background-color: rgba(255, 0, 0,.8);
+
+}
+
+.tesoura {
+
+    background-color: rgba(34, 34, 235, .8);
+}
+    
+
+
+section {
+
+    margin-top: 120px;
+    text-align: center;
+    padding-right: 100px;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 100px;
+    color: rgb(246, 9, 9);
+    text-shadow: 2px 2px black;
+}
+
+.seus-pontos {
+
+    font-size: 40px;
+    font-weight: bolder;
+   
+    padding-bottom: 10px;
+    color: rgb(187, 2, 168);
+    text-shadow: 2px 2px black;
+}
+    
+
+.pontos-robo {
+
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(187, 2, 168);
+    text-shadow: 2px 2px black;
+    
+   
+}
+
+#seu-ponto {
+
+    color: rgb(246, 9, 9);
+    text-shadow: 2px 2px black;
+}
+
+#ponto-robo {
+
+    color: rgb(246, 9, 9);
+    text-shadow: 2px 2px black;
+
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    
+
+
+    body {
+        background: url(./assets/imagem.jpg);
+        background-size: auto;
+        background-position: center; 
+        background-repeat: no-repeat;       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    h1 {       
+        font-size: 70px;
+        font-weight: bolder;
+        margin-left: 25%;
+        margin-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        color: paleturquoise;
+        text-shadow: 2px 2px black;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-top: 20px;
+        padding-right: 20px;
+        margin-left: 10%;
+        
+    }
+
+
+    .resultado {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;        
+        color: rgb(246, 9, 9);
+        text-shadow: 2px 2px black;
+        margin-left: 27%;
+        word-break: normal;
+    }
+
+    button {
+        font-size: 60px;
+        border-radius: 20px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    section {
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .seus-pontos {
+        font-size: 40px;
+        font-weight: bolder;
+        padding-bottom: 40px;
+        color: rgb(187, 2, 168);
+        text-shadow: 2px 2px black;
+    }
+
+    .pontos-robo {
+        font-size: 35px;
+        font-weight: bolder;
+        color: rgb(187, 2, 168);
+        text-shadow: 2px 2px black;
+    }
+
+    .seus-pontos {
+        font-size: 35px;
+        font-weight: bolder;
+        padding-bottom: 40px;
+        color: rgb(187, 2, 168);
+        text-shadow: 2px 2px black;
+    }
+
+    
+}
